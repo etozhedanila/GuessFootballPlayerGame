@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F600CE3F2247816C00738661 /* FootballPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600CE3E2247816C00738661 /* FootballPlayers.swift */; };
+		F62803F3223552CF00923A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62803F2223552CF00923A2E /* AppDelegate.swift */; };
+		F62803F5223552CF00923A2E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62803F4223552CF00923A2E /* GameViewController.swift */; };
+		F62803F8223552CF00923A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62803F6223552CF00923A2E /* Main.storyboard */; };
+		F62803FA223552D000923A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62803F9223552D000923A2E /* Assets.xcassets */; };
+		F62803FD223552D000923A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62803FB223552D000923A2E /* LaunchScreen.storyboard */; };
+		F62804072235615B00923A2E /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62804062235615B00923A2E /* GameModel.swift */; };
+		F628040922356DAF00923A2E /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628040822356DAF00923A2E /* GameCollectionViewCell.swift */; };
+		F628040B2235733900923A2E /* GameCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F628040A2235733900923A2E /* GameCollectionView.swift */; };
+		F629480A224BD2C8008B0F24 /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6294809224BD2C7008B0F24 /* buttonClick.mp3 */; };
+		F629480C224BD40E008B0F24 /* correctAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F629480B224BD40E008B0F24 /* correctAnswer.mp3 */; };
+		F6294811224D5143008B0F24 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6294810224D5143008B0F24 /* GameSettings.swift */; };
+		F65565C7223F938800BC4EED /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65565C6223F938800BC4EED /* AlertViewController.swift */; };
+		F6B7D36222F035BD00542029 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B7D36122F035BD00542029 /* WinViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F600CE3E2247816C00738661 /* FootballPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPlayers.swift; sourceTree = "<group>"; };
+		F62803EF223552CF00923A2E /* GuessFootballPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessFootballPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62803F2223552CF00923A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F62803F4223552CF00923A2E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F62803F7223552CF00923A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F62803F9223552D000923A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F62803FC223552D000923A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F62803FE223552D000923A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F62804062235615B00923A2E /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F628040822356DAF00923A2E /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		F628040A2235733900923A2E /* GameCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionView.swift; sourceTree = "<group>"; };
+		F6294809224BD2C7008B0F24 /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		F629480B224BD40E008B0F24 /* correctAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctAnswer.mp3; sourceTree = "<group>"; };
+		F6294810224D5143008B0F24 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		F65565C6223F938800BC4EED /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		F6B7D36122F035BD00542029 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F62803EC223552CF00923A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F600CE40224781F200738661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6294810224D5143008B0F24 /* GameSettings.swift */,
+				F600CE3E2247816C00738661 /* FootballPlayers.swift */,
+				F62804062235615B00923A2E /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F62803E6223552CF00923A2E = {
+			isa = PBXGroup;
+			children = (
+				F62803F1223552CF00923A2E /* GuessFootballPlayer */,
+				F62803F0223552CF00923A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62803F0223552CF00923A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62803EF223552CF00923A2E /* GuessFootballPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62803F1223552CF00923A2E /* GuessFootballPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F62803F2223552CF00923A2E /* AppDelegate.swift */,
+				F62803F4223552CF00923A2E /* GameViewController.swift */,
+				F630C808224157B80089BB1A /* GameCollectionView */,
+				F65565C6223F938800BC4EED /* AlertViewController.swift */,
+				F6B7D36122F035BD00542029 /* WinViewController.swift */,
+				F600CE40224781F200738661 /* Model */,
+				F62803F6223552CF00923A2E /* Main.storyboard */,
+				F62803FB223552D000923A2E /* LaunchScreen.storyboard */,
+				F629480F224BDB0C008B0F24 /* Music */,
+				F62803F9223552D000923A2E /* Assets.xcassets */,
+				F62803FE223552D000923A2E /* Info.plist */,
+			);
+			path = GuessFootballPlayer;
+			sourceTree = "<group>";
+		};
+		F629480F224BDB0C008B0F24 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				F629480B224BD40E008B0F24 /* correctAnswer.mp3 */,
+				F6294809224BD2C7008B0F24 /* buttonClick.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		F630C808224157B80089BB1A /* GameCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F628040822356DAF00923A2E /* GameCollectionViewCell.swift */,
+				F628040A2235733900923A2E /* GameCollectionView.swift */,
+			);
+			path = GameCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62803EE223552CF00923A2E /* GuessFootballPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6280401223552D000923A2E /* Build configuration list for PBXNativeTarget "GuessFootballPlayer" */;
+			buildPhases = (
+				F62803EB223552CF00923A2E /* Sources */,
+				F62803EC223552CF00923A2E /* Frameworks */,
+				F62803ED223552CF00923A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessFootballPlayer;
+			productName = TryToGuess;
+			productReference = F62803EF223552CF00923A2E /* GuessFootballPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62803E7223552CF00923A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Виталий Субботин";
+				TargetAttributes = {
+					F62803EE223552CF00923A2E = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = F62803EA223552CF00923A2E /* Build configuration list for PBXProject "GuessFootballPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62803E6223552CF00923A2E;
+			productRefGroup = F62803F0223552CF00923A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62803EE223552CF00923A2E /* GuessFootballPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62803ED223552CF00923A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62803FD223552D000923A2E /* LaunchScreen.storyboard in Resources */,
+				F629480C224BD40E008B0F24 /* correctAnswer.mp3 in Resources */,
+				F62803FA223552D000923A2E /* Assets.xcassets in Resources */,
+				F62803F8223552CF00923A2E /* Main.storyboard in Resources */,
+				F629480A224BD2C8008B0F24 /* buttonClick.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F62803EB223552CF00923A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6294811224D5143008B0F24 /* GameSettings.swift in Sources */,
+				F628040922356DAF00923A2E /* GameCollectionViewCell.swift in Sources */,
+				F65565C7223F938800BC4EED /* AlertViewController.swift in Sources */,
+				F62804072235615B00923A2E /* GameModel.swift in Sources */,
+				F62803F5223552CF00923A2E /* GameViewController.swift in Sources */,
+				F628040B2235733900923A2E /* GameCollectionView.swift in Sources */,
+				F6B7D36222F035BD00542029 /* WinViewController.swift in Sources */,
+				F600CE3F2247816C00738661 /* FootballPlayers.swift in Sources */,
+				F62803F3223552CF00923A2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F62803F6223552CF00923A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62803F7223552CF00923A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F62803FB223552D000923A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F62803FC223552D000923A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F62803FF223552D000923A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6280400223552D000923A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6280402223552D000923A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PAJM5Y54LW;
+				INFOPLIST_FILE = GuessFootballPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VitalySubbotin.GuessFootballPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Guess Football Player Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6280403223552D000923A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PAJM5Y54LW;
+				INFOPLIST_FILE = GuessFootballPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VitalySubbotin.GuessFootballPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Guess Football Player Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F62803EA223552CF00923A2E /* Build configuration list for PBXProject "GuessFootballPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62803FF223552D000923A2E /* Debug */,
+				F6280400223552D000923A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6280401223552D000923A2E /* Build configuration list for PBXNativeTarget "GuessFootballPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6280402223552D000923A2E /* Debug */,
+				F6280403223552D000923A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62803E7223552CF00923A2E /* Project object */;
+}
